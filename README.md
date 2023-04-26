@@ -1,4 +1,4 @@
-# Basic template for a React project with autodeploy on GH-pages.
+# Template for a React project with autodeploy to GH-pages.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). To familiarize yourself with and configure additional features [refer to documentation](https://create-react-app.dev/docs/getting-started/).
 
