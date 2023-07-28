@@ -1,5 +1,7 @@
 # React project template with autodeploy to GH-pages.
 
+https://www.figma.com/file/xB0IWaLFhlUsnS48jMOGci/Freebies%3A-Web-for-Smart-Home-Installation-Agency-(Community)?node-id=0%3A1&mode=dev
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). To familiarize yourself with and configure additional features [refer to documentation](https://create-react-app.dev/docs/getting-started/).
 
 ## Creating a repository from a template
