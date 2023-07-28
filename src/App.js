@@ -1,21 +1,23 @@
-import { Header } from "components/Header/Header";
-import { Hero } from "components/Hero/Hero";
-import { Activities } from "components/Activities/Activities";
-import { Project } from "components/Project/Project";
-import { Clients } from "components/Clients/Clients";
-import { Footer } from "components/Footer/Footer";
+import { lazy } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { Layout } from "components/Layout/Layout";
+
+const Home = lazy(() => import('./pages/Home/Home'));
+const Contact = lazy(() => import('./pages/Contact/Contact'));
+const Blog = lazy(() => import('./pages/Blog/Blog'));
+const NotFound = lazy(() => import('./pages/NotFound/NotFound'));
 
 function App() {
   return (
     <>
-      <Header />
-      <main>
-        <Hero />
-        <Activities />
-        <Project />
-        <Clients />
-      </main>
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+            <Route path='contact' element={<Contact />} />
+            <Route path='blog' element={<Blog />} />
+          <Route path='*' element={<NotFound/>} />
+        </Route>
+      </Routes>
     </>
   );
 }
