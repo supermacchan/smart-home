@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderContainer = styled.header`
     width: 100%;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(209,236,255,0.2) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(209,236,255,0.1) 100%);
 `
 
 export const HeaderContent = styled.div`

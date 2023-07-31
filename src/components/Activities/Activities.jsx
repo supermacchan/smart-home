@@ -1,54 +1,84 @@
 import arrow from "../../images/icons/forward-arrow.svg";
+import { Container } from "components/Container/Container";
+import { 
+    Section,
+    Title,
+    CardList,
+    Card,
+    CardTitle,
+    CardText,
+    Button
+} from "./Activities.styled";
+import background1 from "../../images/activities-1.png";
+import background2 from "../../images/activities-2.png";
+import background3 from "../../images/activities-3.png";
 
 export const Activities = () => {
     return (
-        <section>
-            <h2>
-                What we do to help our client grow in digital era
-            </h2>
-            <ul> 
-                <li>
-                    <img src="" alt="" />
-                    <h3>
+        <Section>
+            <Container>
+            <Title>
+                What we do to help our clients grow in digital era?
+            </Title>
+            <CardList> 
+                <Card
+                    style={{
+                        backgroundImage: `url(${background1})`,
+                        backgroundPositionX: "74px",
+                        backgroundPositionY: "48px",
+                        marginTop: 158,
+                    }}
+                >
+                    <CardTitle>
                         Make Your business To Be Better Famous In Internet
-                    </h3>
-                    <p>
+                    </CardTitle>
+                    <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                    <button type="button">
+                    </CardText>
+                    <Button type="button">
                         Learn more
                         <img src={arrow} alt="forward arrow" />
-                    </button>
-                </li>
+                    </Button>
+                </Card>
 
-                <li>
-                    <img src="" alt="" />
-                    <h3>
+                <Card
+                    style={{
+                        backgroundImage: `url(${background2})`,
+                        marginTop: -130,
+                    }}
+                >
+                    <CardTitle>
                         Bring Technology To Your Comfrotable Home
-                    </h3>
-                    <p>
+                    </CardTitle>
+                    <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                    <button type="button">
+                    </CardText>
+                    <Button type="button">
                         Learn more
                         <img src={arrow} alt="forward arrow" />
-                    </button>
-                </li>
+                    </Button>
+                </Card>
 
-                <li>
-                    <img src="" alt="" />
-                    <h3>
+                <Card
+                    style={{
+                        backgroundImage: `url(${background3})`,
+                        backgroundPositionX: "100px",
+                        backgroundPositionY: "49px",
+                    }}
+                >
+                    <CardTitle>
                         Build Your Digital Product That Suitable For Your Need
-                    </h3>
-                    <p>
+                    </CardTitle>
+                    <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                    <button type="button">
+                    </CardText>
+                    <Button type="button">
                         Learn more
                         <img src={arrow} alt="forward arrow" />
-                    </button>
-                </li>
-            </ul>
-        </section>
+                    </Button>
+                </Card>
+            </CardList>
+            </Container>
+        </Section>
     );
 }
