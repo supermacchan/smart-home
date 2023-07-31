@@ -1,12 +1,15 @@
 {
   "files": {
     "main.css": "/smart-home/static/css/main.7d7bc902.css",
-    "main.js": "/smart-home/static/js/main.f83fee56.js",
-    "static/js/764.b9044ff5.chunk.js": "/smart-home/static/js/764.b9044ff5.chunk.js",
+    "main.js": "/smart-home/static/js/main.8b641dd3.js",
+    "static/js/944.f2322058.chunk.js": "/smart-home/static/js/944.f2322058.chunk.js",
     "static/js/617.c1dbf20a.chunk.js": "/smart-home/static/js/617.c1dbf20a.chunk.js",
     "static/js/124.b3f399a3.chunk.js": "/smart-home/static/js/124.b3f399a3.chunk.js",
     "static/js/256.a2d3969b.chunk.js": "/smart-home/static/js/256.a2d3969b.chunk.js",
+    "static/media/project-1-bg.png": "/smart-home/static/media/project-1-bg.b309793b23c7b4429d78.png",
     "static/media/hero.png": "/smart-home/static/media/hero.5c01c374d89875f92e5b.png",
+    "static/media/project-2-bg.png": "/smart-home/static/media/project-2-bg.2c4cb7874e5d7ecfceb7.png",
+    "static/media/project-3-bg.png": "/smart-home/static/media/project-3-bg.bd659de1343a3f3755c6.png",
     "static/media/activities-2.png": "/smart-home/static/media/activities-2.ef704b961423de00b146.png",
     "static/media/activities-3.png": "/smart-home/static/media/activities-3.49d4f6deb274290c12da.png",
     "static/media/activities-1.png": "/smart-home/static/media/activities-1.61154849421563fa4b3b.png",
@@ -14,14 +17,14 @@
     "static/media/logo.svg": "/smart-home/static/media/logo.ca4e5a72d766c19417a5653c34002f5e.svg",
     "static/media/forward-arrow.svg": "/smart-home/static/media/forward-arrow.4c2136b80cae19355615b2f5a22c4cc5.svg",
     "main.7d7bc902.css.map": "/smart-home/static/css/main.7d7bc902.css.map",
-    "main.f83fee56.js.map": "/smart-home/static/js/main.f83fee56.js.map",
-    "764.b9044ff5.chunk.js.map": "/smart-home/static/js/764.b9044ff5.chunk.js.map",
+    "main.8b641dd3.js.map": "/smart-home/static/js/main.8b641dd3.js.map",
+    "944.f2322058.chunk.js.map": "/smart-home/static/js/944.f2322058.chunk.js.map",
     "617.c1dbf20a.chunk.js.map": "/smart-home/static/js/617.c1dbf20a.chunk.js.map",
     "124.b3f399a3.chunk.js.map": "/smart-home/static/js/124.b3f399a3.chunk.js.map",
     "256.a2d3969b.chunk.js.map": "/smart-home/static/js/256.a2d3969b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d7bc902.css",
-    "static/js/main.f83fee56.js"
+    "static/js/main.8b641dd3.js"
   ]
 }
