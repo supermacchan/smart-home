@@ -1,12 +1,24 @@
+import { 
+    HeroSection, 
+    BackgroundImage,
+    HeroContainer,
+    Title,
+    Description,
+    Button
+} from "./Hero.styled";
+
 export const Hero = () => {
     return (
-        <section>
-            <h1>New Automation Tool for Your Home</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus tristique vulputate ultrices ut mauris tellus at. Posuere sollicitudin odio tellus elit.
-            </p>
-            <button type="button">See Our Project</button>
-            <img src="" alt="" />
-        </section>
+        <HeroSection>
+            <BackgroundImage>
+                <HeroContainer>
+                    <Title>New Automation Tool for Your Home</Title>
+                    <Description>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus tristique vulputate ultrices ut mauris tellus at. Posuere sollicitudin odio tellus elit.
+                    </Description>
+                    <Button type="button">See Our Project</Button>
+                </HeroContainer>
+            </BackgroundImage>
+        </HeroSection>
     );
 }

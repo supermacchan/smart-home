@@ -1,7 +1,9 @@
+import { Content } from "./Container.styled"
+
 export const Container = ({ children }) => {
     return (
-        <section>
+        <Content>
             {children}
-        </section>
+        </Content>
     )
 }
