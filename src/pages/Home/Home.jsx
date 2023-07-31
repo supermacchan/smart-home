@@ -1,6 +1,6 @@
 import { Hero } from "components/Hero/Hero";
 import { Activities } from "components/Activities/Activities";
-import { Project } from "components/Project/Project";
+import { Projects } from "components/Projects/Projects";
 import { Clients } from "components/Clients/Clients";
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
         <main>
             <Hero />
             <Activities />
-            <Project />
+            <Projects />
             <Clients />
         </main>
     )
