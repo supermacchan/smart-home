@@ -8,8 +8,7 @@ export const ProjectOne = () => {
                 <ProjectTitle>Smart Home Installation</ProjectTitle>
                 <ProjectDescription>In Muarakana Housing Estate</ProjectDescription>
             </ProjectContent>
-            
-                {/* svg carousel? */}
+            {/* svg carousel? */}
         </Project>       
     )
 }
