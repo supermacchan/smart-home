@@ -1,5 +1,6 @@
-import { useLocation } from "react-router-dom";
-import logo from "../../images/icons/logo.svg";
+import { useLocation, Link } from "react-router-dom";
+import logo from "../../images/icons/footer-logo.svg";
+import { MdOutlineHomeWork, MdLocalPhone, MdOutlineEmail } from "react-icons/md";
 import { 
     FooterSection,
     FooterContainer,
@@ -7,7 +8,19 @@ import {
     Title,
     Text,
     Button,
-    FooterContent
+    FooterContent,
+    FooterLink,
+    FooterLogo,
+    FooterTitle,
+    FooterContact,
+    ContactList,
+    ContactItem,
+    Subtitle,
+    List,
+    ListLink,
+    ListItem,
+    FooterNav,
+    Copyright
 } from "./Footer.styled";
 
 export const Footer = () => {
@@ -28,87 +41,106 @@ export const Footer = () => {
                 </TextArea>
 
                 <FooterContent>
-                    <div>
-                        <img src={logo} alt="company logo" />
-                        <h3>Afrianska</h3>
-                        <ul>
-                            <li>
-                                {/* replace with icons? */}
-                                <span>A.</span>
+                    <FooterContact>
+                        <Link to={"/"}>
+                            <FooterLink>
+                                <FooterLogo src={logo} alt="company logo" />
+                                <FooterTitle>Afrianska</FooterTitle>
+                            </FooterLink>
+                        </Link>
+                        <ContactList>
+                            <ContactItem>
+                                <MdOutlineHomeWork style={{width: 32, height: 32}} />
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </p>
-                            </li>
-                            <li>
-                                <span>T.</span>
+                            </ContactItem>
+                            <ContactItem>
+                                <MdLocalPhone style={{width: 20, height: 20}} />
                                 <p>
                                     +62-812-7313-4321
                                 </p>
-                            </li>
-                            <li>
-                                <span>E.</span>
+                            </ContactItem>
+                            <ContactItem>
+                                <MdOutlineEmail style={{width: 20, height: 20}} />
                                 <p>
                                     hello.afrian@gmail.com
                                 </p>
-                            </li>
-                        </ul>
-                    </div>
+                            </ContactItem>
+                        </ContactList>
+                    </FooterContact>
 
-                    <div>
-                        <h3>About US</h3>
-                        <ul>
-                            <li>
-                                <a href="/">
+                    <FooterNav>
+                        <Subtitle>About US</Subtitle>
+                        <List>
+                            <Link to={"/"}>
+                                <ListItem>
                                     About
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/">
+                                </ListItem>
+                            </Link>
+                            <Link to={"/"}>
+                                <ListItem>
                                     What We Do
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/">
+                                </ListItem>
+                            </Link>
+                            <Link to={"/"}>
+                                <ListItem>
                                     Project
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/">
+                                </ListItem>
+                            </Link>
+                            <Link to={"/"}>
+                                <ListItem>
                                     How It Work With Us
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                                </ListItem>
+                            </Link>  
+                        </List>
+                    </FooterNav>
 
                     <div>
-                        <h3>Follow US</h3>
-                        <ul>
+                        <Subtitle>Follow US</Subtitle>
+                        <List>
                             <li>
-                                <a href="https://www.instagram.com/">
+                                <ListLink 
+                                    href="https://www.instagram.com/" 
+                                    target='_blank' 
+                                    rel='noopener noreferrer'
+                                >
                                     Instagram
-                                </a>
+                                </ListLink>
                             </li>
                             <li>
-                                <a href="https://www.facebook.com/">
+                                <ListLink 
+                                    href="https://www.facebook.com/"
+                                    target='_blank' 
+                                    rel='noopener noreferrer'
+                                >
                                     Facebook
-                                </a>
+                                </ListLink>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/">
+                                <ListLink 
+                                    href="https://www.linkedin.com/"
+                                    target='_blank' 
+                                    rel='noopener noreferrer'
+                                >
                                     LinkedIn
-                                </a>
+                                </ListLink>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/">
+                                <ListLink 
+                                    href="https://www.youtube.com/"
+                                    target='_blank' 
+                                    rel='noopener noreferrer'
+                                >
                                     Youtube
-                                </a>
+                                </ListLink>
                             </li>
-                        </ul>
+                        </List>
                     </div>
                 </FooterContent>
-                <p>
+                <Copyright>
                     2019 &#169; Afrianska. All rights reserved.
-                </p>
+                </Copyright>
             </FooterContainer>
         </FooterSection>
     )
