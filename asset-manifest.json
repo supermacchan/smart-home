@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/smart-home/static/css/main.7d7bc902.css",
-    "main.js": "/smart-home/static/js/main.b38bf8fb.js",
-    "static/js/9.62cdde64.chunk.js": "/smart-home/static/js/9.62cdde64.chunk.js",
+    "main.js": "/smart-home/static/js/main.2d9b0f15.js",
+    "static/js/9.45c4ed77.chunk.js": "/smart-home/static/js/9.45c4ed77.chunk.js",
     "static/js/617.c1dbf20a.chunk.js": "/smart-home/static/js/617.c1dbf20a.chunk.js",
     "static/js/124.b3f399a3.chunk.js": "/smart-home/static/js/124.b3f399a3.chunk.js",
     "static/js/256.a2d3969b.chunk.js": "/smart-home/static/js/256.a2d3969b.chunk.js",
@@ -18,14 +18,14 @@
     "static/media/footer-logo.svg": "/smart-home/static/media/footer-logo.4fd99b9c313abdd996a2f8eb7809fb14.svg",
     "static/media/forward-arrow.svg": "/smart-home/static/media/forward-arrow.4c2136b80cae19355615b2f5a22c4cc5.svg",
     "main.7d7bc902.css.map": "/smart-home/static/css/main.7d7bc902.css.map",
-    "main.b38bf8fb.js.map": "/smart-home/static/js/main.b38bf8fb.js.map",
-    "9.62cdde64.chunk.js.map": "/smart-home/static/js/9.62cdde64.chunk.js.map",
+    "main.2d9b0f15.js.map": "/smart-home/static/js/main.2d9b0f15.js.map",
+    "9.45c4ed77.chunk.js.map": "/smart-home/static/js/9.45c4ed77.chunk.js.map",
     "617.c1dbf20a.chunk.js.map": "/smart-home/static/js/617.c1dbf20a.chunk.js.map",
     "124.b3f399a3.chunk.js.map": "/smart-home/static/js/124.b3f399a3.chunk.js.map",
     "256.a2d3969b.chunk.js.map": "/smart-home/static/js/256.a2d3969b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d7bc902.css",
-    "static/js/main.b38bf8fb.js"
+    "static/js/main.2d9b0f15.js"
   ]
 }
