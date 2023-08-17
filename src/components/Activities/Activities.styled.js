@@ -56,6 +56,12 @@ export const Card = styled.li`
 
     border-radius: 10px;
     box-shadow: 5px 20px 50px 0px rgba(16, 112, 177, 0.20);
+
+    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        transform: scale(1.05);
+    }
 `
 
 export const CardTitle = styled.h3`

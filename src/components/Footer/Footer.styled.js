@@ -72,7 +72,6 @@ export const Button = styled.button`
     
     background: var(--secondary-bg-color);
     color: var(--light-text-color);
-    /* box-shadow: 5px 10px 20px 0px rgba(53, 110, 173, 0.20); */
 
     text-align: center;
     font-family: inherit;
@@ -80,6 +79,15 @@ export const Button = styled.button`
     font-weight: 400;
     line-height: 1.62;
     letter-spacing: 0.64px;
+
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--main-bg-color);
+        color: var(--title-text-color);
+    }
 `
 
 export const FooterContent = styled.div`
@@ -158,10 +166,24 @@ export const List = styled.ul`
 
 export const ListLink = styled.a`
     color: var(--light-text-color);
+
+    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-text-color);
+    }
 `
 
 export const ListItem = styled.li`
     color: var(--light-text-color);
+
+    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-text-color);
+    }
 `
 
 export const Copyright = styled.p`

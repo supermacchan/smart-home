@@ -55,7 +55,7 @@ export const Button = styled.button`
     border: none;
     border-radius: 10px;
     
-    background: var(--secondary-bg-color);
+    background-color: var(--secondary-bg-color);
     box-shadow: 5px 10px 20px 0px rgba(53, 110, 173, 0.20);
 
     text-align: center;
@@ -66,4 +66,11 @@ export const Button = styled.button`
     letter-spacing: 0.64px;
 
     color: var(--light-text-color);
+
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--dark-bg-color);
+    }
 `

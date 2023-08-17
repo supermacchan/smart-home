@@ -1,5 +1,5 @@
 import { ProjectTitle, ProjectDescription } from "../Projects.styled";
-import { Project, ProjectContent } from "./ProjectOne.styled";
+import { Project, ProjectContent, Overlay, Button } from "./ProjectOne.styled";
 
 export const ProjectOne = () => {
     return (
@@ -9,6 +9,11 @@ export const ProjectOne = () => {
                 <ProjectDescription>In Muarakana Housing Estate</ProjectDescription>
             </ProjectContent>
             {/* svg carousel? */}
+            <Overlay>
+                <Button type="button">
+                    Learn more
+                </Button>
+            </Overlay>
         </Project>       
     )
 }

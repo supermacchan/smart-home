@@ -9,7 +9,7 @@ import {
 
 export const Hero = () => {
     return (
-        <HeroSection>
+        <HeroSection id="hero">
             <BackgroundImage>
                 <HeroContainer>
                     <Title>New Automation Tool for Your Home</Title>

@@ -60,6 +60,13 @@ export const Client = styled.li`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--dark-bg-color);
+    }
 `
 
 export const Button = styled.button`

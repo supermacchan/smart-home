@@ -13,7 +13,7 @@ import logo from "../../images/client-logo.png";
 
 export const Clients = () => {
     return (
-        <Section>
+        <Section id="clients">
             <Container>
                 <TextArea>
                     <Title>Our Beloved Clients</Title>

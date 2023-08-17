@@ -15,7 +15,7 @@ import background3 from "../../images/activities-3.png";
 
 export const Activities = () => {
     return (
-        <Section>
+        <Section id="activities">
             <Container>
                 <Title>
                     What we do to help our clients grow in digital era?

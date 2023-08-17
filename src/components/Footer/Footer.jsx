@@ -27,13 +27,13 @@ export const Footer = () => {
     const location = useLocation();
 
     return (
-        <FooterSection style={{
+        <FooterSection id="footer" style={{
             backgroundColor: location.pathname === "/" ? "#5A98D0" : "#FFF"
         }}>
             <FooterContainer>
 
                 <TextArea>
-                    <Title>Interested to woek with our team?</Title>
+                    <Title>Interested to work with our team?</Title>
                     <Text>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                     </Text>
@@ -90,7 +90,7 @@ export const Footer = () => {
                             </Link>
                             <Link to={"/"}>
                                 <ListItem>
-                                    How It Work With Us
+                                    How To Work With Us
                                 </ListItem>
                             </Link>  
                         </List>

@@ -7,7 +7,7 @@ export const Header = () => {
     const location = useLocation();
 
     return (
-        <HeaderContainer>
+        <HeaderContainer id="header">
             <HeaderContent
                 style={{
                     paddingBottom: location.pathname === "/" ? 0 : 48

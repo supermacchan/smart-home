@@ -12,7 +12,7 @@ import {
 
 export const Projects = () => {
     return (
-        <Section>
+        <Section id="projects">
             <Container>
                 <TextArea>
                     <Title>
